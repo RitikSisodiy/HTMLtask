@@ -1,0 +1,125 @@
+.nav-item{
+    display: flex;
+}
+*{
+    font-family:  system-ui;
+}
+.nav-item div {
+    padding: 4px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.main-title{
+    color: #7F56D9;
+}
+.top-section {
+    padding: 74px 0 74px 0;
+    text-align: center;
+}
+.top-section div {
+    vertical-align: middle;
+    margin-top: 6px;
+}
+.main-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #7F56D9;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.main-heading{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #101828;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.main-info{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #667085;
+}
+
+.rating-item h1{
+    width: 50%;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -0.02em;
+    color: #7F56D9;
+    margin: 0;
+}
+
+.rating-item span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.rating div {
+    padding: 19px 0;
+}
+section {
+    padding: 20px 10px !important;
+}
+.sponsers .heading{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #667085;
+}
+.sponsers-container{
+    display: flex;
+}
+.sponsers-container .item {
+    width: 50%;
+    align-content: space-between;
+    padding: 6px 0px;
+}
+.section{
+    padding: 0!important; 
+}
+.btn{
+    padding: 12px 20px;
+    gap: 8px;   
+    width: 343px;
+    height: 48px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    flex-grow: 1;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 5px 0;
+}
+
+.btn-primary{
+    background: #7F56D9;
+    border: 1px solid #7F56D9;
+    color: #FFFFFF;
+
+}
+.btn-secondary{
+    border: 1px solid #344054;
+    color: #344054;
+
+}
